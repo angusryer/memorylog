@@ -1,0 +1,43 @@
+{
+	"name": "memorylog",
+	"version": "1.0.0",
+	"description": "A place to log your daily memories and biggest wins",
+	"main": "index.ts",
+	"type": "module",
+	"scripts": {
+		"build": "tsc -noEmit && node scripts/dist-build.js",
+		"tsc:prod": "tsc --noEmit",
+		"tsc:dev": "tsc --watch",
+		"prod": "node ./dist/index.js",
+		"dev": "node scripts/dev-server.js",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/angusryer/memorylog.git"
+	},
+	"keywords": [
+		"personal",
+		"diary",
+		"log",
+		"journal"
+	],
+	"author": "Angus Ryer",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/angusryer/memorylog/issues"
+	},
+	"homepage": "https://github.com/angusryer/memorylog#readme",
+	"devDependencies": {
+		"commander": "^9.3.0",
+		"dayjs": "^1.11.3",
+		"esbuild-css-modules-plugin": "^2.3.2",
+		"esbuild-plugin-clean": "^0.9.0",
+		"esbuild-plugin-copy": "^1.3.0",
+		"typescript": "^4.7.4"
+	},
+	"dependencies": {
+		"chalk": "^5.0.1",
+		"esbuild": "^0.14.48"
+	}
+}

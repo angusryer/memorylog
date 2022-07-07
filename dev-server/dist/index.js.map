@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/base/input/input.ts", "../../src/app.ts"],
+  "sourcesContent": ["import styles from \"./input.css\";\n\nfunction input({ className = \"\" }) {\n\tconst container = document.createElement(\"div\");\n\tconst input = document.createElement(\"input\");\n\tinput.setAttribute(\"type\", \"text\");\n\tclassName && input.setAttribute(\"class\", `${className}`);\n\treturn container.appendChild(input);\n}\n\nexport { input };\n", "// Memory Log\n// Need inputs for:\n// 1. Today's date\n// 2. Best moment\n// 3. Biggest win\n// Submit button\n// Display table with all others from DB\n\nimport \"./style/global.css\";\nimport { input } from \"./base/input/input\";\n\nconst root = document.getElementById(\"root\");\nroot?.appendChild(input({ className: \"memory\" }));\n\nexport {};\n"],
+  "mappings": ";;;;AAEA,iBAAe,EAAE,YAAY,MAAM;AAClC,UAAM,YAAY,SAAS,cAAc,KAAK;AAC9C,UAAM,SAAQ,SAAS,cAAc,OAAO;AAC5C,WAAM,aAAa,QAAQ,MAAM;AACjC,iBAAa,OAAM,aAAa,SAAS,GAAG,WAAW;AACvD,WAAO,UAAU,YAAY,MAAK;AAAA,EACnC;;;ACGA,MAAM,OAAO,SAAS,eAAe,MAAM;AAC3C,+BAAM,YAAY,MAAM,EAAE,WAAW,SAAS,CAAC;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/style/global.css"],
+  "sourcesContent": ["* {\n\tmargin: 0;\n\tpadding: 0;\n}\n"],
+  "mappings": ";AAAA;AACC;AACA;AAAA;",
+  "names": []
+}
