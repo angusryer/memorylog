@@ -19,6 +19,7 @@ const prepareOutputDir = () => {
 };
 
 const injectJs = () => {
+	
 	try {
 		const htmlStr = readFileSync(srcHtmlFile)
 			.toString()

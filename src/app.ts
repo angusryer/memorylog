@@ -7,9 +7,12 @@
 // Display table with all others from DB
 
 import "./style/global.css";
-import { input } from "./base/input/input";
+import { input } from "./base/input";
+
+const head = document.getElementsByTagName("head");
+// do stuff with head
 
 const root = document.getElementById("root");
-root?.appendChild(input({ className: "memory" }));
+const app = root?.appendChild(input({ className: "memory" }));
 
-export {};
+export { app };

@@ -1,5 +1,3 @@
-import styles from "./input.css";
-
 function input({ className = "" }) {
 	const container = document.createElement("div");
 	const input = document.createElement("input");

@@ -16,7 +16,8 @@ export const getEsBuildConfig = (clients) => {
 		bundle: true,
 		minify: false,
 		loader: {
-			".ts": "ts"
+			".ts": "ts",
+			".css": "css"
 		},
 		tsconfig: "./tsconfig.json",
 		incremental: true,

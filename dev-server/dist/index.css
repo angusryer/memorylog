@@ -1,6 +1,17 @@
-/* src/style/global.css */
+/* src/style/reset.css */
 * {
   margin: 0;
   padding: 0;
 }
+
+/* src/style/base/button.css */
+
+/* src/style/base/input.css */
+.memory {
+  background-color: black;
+}
+
+/* src/style/screens/main.css */
+
+/* src/style/global.css */
 /*# sourceMappingURL=index.css.map */
